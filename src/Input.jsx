@@ -114,7 +114,7 @@ return(
     </div>
     <div className={classNumber} >
     <label>Charyzma</label>
-    <input className={classTwo} type="number" id="Ch" value={stats.sz} onChange={e => setStats({
+    <input className={classTwo} type="number" id="Ch" value={stats.ch} onChange={e => setStats({
         ...stats,
         ch: e.target.value})} />
     </div>
